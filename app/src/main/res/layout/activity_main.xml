@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- TextView at the top -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Vista Apartment"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button for Guard Function -->
+    <Button
+        android:id="@+id/BtnGuardFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guard Function"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button for Apartment Manager Function -->
+    <Button
+        android:id="@+id/BtnApartmentManagerFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apartment Manager Function"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button for Resident -->
+    <Button
+        android:id="@+id/BtnResident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resident" />
+
+</LinearLayout>

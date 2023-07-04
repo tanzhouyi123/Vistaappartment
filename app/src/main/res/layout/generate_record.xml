@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_payment_record.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".paymentRecordActivity">
+
+    <!-- Payment Record Title -->
+    <TextView
+        android:id="@+id/textViewRecordTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Record"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Resident ID -->
+    <TextView
+        android:id="@+id/textViewResidentID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resident ID: " />
+
+    <!-- Payment Amount -->
+    <TextView
+        android:id="@+id/textViewPaymentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Amount: " />
+
+    <TextView
+        android:id="@+id/textViewPaymentTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Time: " />
+
+    <Button
+        android:id="@+id/buttonSendReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Reminder" />
+    <!-- Additional Payment Details -->
+    <!-- Add more TextViews as needed to display additional payment details -->
+
+</LinearLayout>
